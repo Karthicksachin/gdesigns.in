@@ -334,7 +334,7 @@ nav ul li a{
 #check{
     display: none;
 }
-@media (max-width:750px ){
+@media (max-width:900px ){
     *{
         font-size: 15px;
     }
@@ -505,10 +505,10 @@ nav a:hover{
         margin-right: -40px;
     }
    .im h1{
-       font-size: 12px;
+       font-size: 13px;
        padding-top: 11px;
     word-spacing: 1px;
-    text-shadow: 1px 1px 0px #fff, 1.5px 1.2px 0px #fff;
+    text-shadow: 1.2px 1px 0px #fff;
         padding-left: 30px;
 
        
