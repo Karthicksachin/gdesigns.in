@@ -113,7 +113,7 @@ body{
     
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    
+    word-spacing: 15px;
     text-align: center;
     line-height: 3;
     background-color: #6a7e83;
@@ -477,9 +477,11 @@ nav a:hover{
    .im h1{
        font-size: 13.5px;
        padding-top: 11px;
-    word-spacing: 1px;
-    text-shadow: 1.2px 1px 0px #fff;
+     word-spacing: 1px;
+     color: #fff;
         padding-left: 22px;
+        
+        text-shadow: none;
     
    }
     
@@ -504,6 +506,7 @@ nav a:hover{
     .flex1{
        font-size: 20px;
         line-height: 1.5;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .left, .right {
         cursor: pointer;
