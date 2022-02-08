@@ -39,7 +39,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #f30808;
      line-height: 3;
-     text-shadow: 3px -1px 0px #fdfdfd
+     text-shadow: 3px -1px 0px #fdfdfd;
+     word-spacing: 10px;
  }
  .wel{
      background-image: url(1643706421478.jpeg);
@@ -480,9 +481,12 @@ nav a:hover{
      word-spacing: 1px;
      color: #fff;
         padding-left: 22px;
-        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-shadow: none;
     
+   }
+   .wel img{
+       width: auto;
    }
     
     .fl{
@@ -503,7 +507,7 @@ nav a:hover{
         padding-left: 10px;
         padding-right: 10px;
     }
-    .flex1{
+    .flex1 {
        font-size: 20px;
         line-height: 1.5;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
