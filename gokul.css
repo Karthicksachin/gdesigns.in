@@ -1,3 +1,4 @@
+
 .web{
    width: 100%;
 
@@ -46,7 +47,7 @@ body{
      background-position: center;
      background-size: cover;
      background-attachment: fixed;
-     margin-top: 75px;
+     margin-top: 50px;
      
      
  }
@@ -92,10 +93,7 @@ body{
 .flex2{
     padding-bottom: 70px;
    padding-top: 70px;
-   padding-left: 100px;
-   
-   
-   
+  
 }
 
  
@@ -305,11 +303,7 @@ h5{
     padding-top: 10px;
     padding-left: 10px;
 }
-*{
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
+
 nav{
     background-color: #2f7191;
     text-align: center;
@@ -321,92 +315,69 @@ nav ul li{
     margin: 10px 50px;
     font-size: 20px;
     text-align: center;
+   
+    list-style: none;
+    box-sizing: border-box;
     
 }
 nav ul li a{
     color: #fff;
+    text-decoration: none;
 }
 .checkbtn{
-    font-size: 30px;
+    font-size: 10px;
     cursor: pointer;
     display: none;
 }
 #check{
     display: none;
 }
+
 @media (max-width:1100px ){
-    *{
-        font-size: 25px;
-    }
+   
     .wel{
         margin-top: 15px;
     }
-    .checkbtn
-    {
-        display: block;
-        
+    nav ul{
+        font-size: 13px;
     }
     
-     ul {
-       position: fixed;
-       width: 80%;
-       top: 80px;
-       margin-top: 20px;
-       left:-100%;
-       text-align: center;
-       transition: all .5s;
-       background-color: #2f7191;
-    }
-    nav ul li{
-        display: block;
-        background-color: #2f7191;
-        margin-top: 30px;
-
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    #check:checked~ ul{
-        left: 0;
-        
-    }
+     
     .im{
-        height: 30px;
+        height: 50px;
         margin-bottom: 10px;
     }
     .im img{
-        width: 50px;
-        height: 30px;
+        width: 100px;
+        height: 50px;
         padding-left: 0px;
     }
    .im h1{
-    font-size: 17px;
-    padding-top: 3px;
+    font-size: 30px;
+    padding-top: 7px;
     word-spacing: 1px;
        
        
    }
     
     .fl{
-        flex-flow: column;
+        flex-flow: row;
         height: auto;
         width: 300px;
     }
     .flex2{
-       margin-top: -80px;
+      
         justify-content: center;
-       padding-bottom: 20px;
-        padding-left: 2.5px;
-        padding-right: 2.5px;
+       
     }
     .flex2 img{
-        width: 220px;
-        
-        
+        width: 400px;
+        padding: 0 40px;
+      
     }
     .flex1{
        
-        line-height: 1;
+        line-height: 1.5;
     }
     .left, .right {
         cursor: pointer;
@@ -414,8 +385,8 @@ nav ul li a{
         margin-top: -225px;
         width: auto;
         padding: 16px;
-        margin-left: 450px;
-    margin-right: 450px;
+        margin-left: 950px;
+    margin-right: 950px;
         color: rgb(38 116 191);
         text-shadow: 3px 0 0 #fff;
         font-weight: bold;
@@ -424,44 +395,43 @@ nav ul li a{
         border-radius: 0 3px 3px 0;
     }
     .gd,.welcome, .kk,.call{
-        font-size: 10px;
+        font-size: 20px;
     }
     #gd{
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .welcome{
         text-shadow: 1.5px -.5px 0 #fff;
     }
     .head, h5, .gal{
-        font-size: 15px;
+        font-size: 20px;
     }
     .gallery1,.gallery2,.gallery3,.gallery4,.gallery5{
         
-        flex-flow: column;
+        flex-flow: row;
         
     }
     #gallery1 img,#gallery2 img{
         width: 300px;
         height: 200px;
         justify-content: center;
-        margin-left: -120px;
-        margin-right: -100px;
+        
        
         
     }
     
-}
+
 
 nav a:hover{
     background-color:rgb(94, 184, 196);
     text-decoration: none;
     padding: 10px 10px;
 }
-@media (max-width:520px ) {
-    *{
-        font-size: 15px;
-    }
+}
+@media (max-width:770px ) 
+{
+    
     .wel{
         margin-top: 15px;
     }
@@ -505,11 +475,137 @@ nav a:hover{
         margin-right: -40px;
     }
    .im h1{
-       font-size: 13px;
+       font-size: 13.5px;
        padding-top: 11px;
     word-spacing: 1px;
     text-shadow: 1.2px 1px 0px #fff;
-        padding-left: 30px;
+        padding-left: 22px;
+    
+   }
+    
+    .fl{
+        flex-flow: column;
+        height: auto;
+        width: 300px;
+        margin: 10px 30px;
+    }
+    .flex2{
+       margin-top: -80px;
+        justify-content: center;
+       padding-bottom: 20px;
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+    }
+    .flex2 img{
+        width: 220px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .flex1{
+       font-size: 20px;
+        line-height: 1.5;
+    }
+    .left, .right {
+        cursor: pointer;
+        position: absolute;
+        margin-top: -225px;
+        width: auto;
+        padding: 16px;
+        margin-left: 330px;
+        margin-right: 330px;
+        color: rgb(38 116 191);
+        text-shadow: 3px 0 0 #fff;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+    .gd,.welcome, .kk,.call{
+        font-size: 10px;
+    }
+    #gd{
+        font-size: 10px;
+    }
+
+    .welcome{
+        text-shadow: 1.5px -.5px 0 #fff;
+    }
+    .head, h5, .gal{
+        font-size: 15px;
+    }
+    .gallery1,.gallery2,.gallery3,.gallery4,.gallery5{
+        
+        flex-flow: column;
+        
+    }
+    #gallery1 img,#gallery2 img
+    {
+        width: 300px;
+        height: 200px;
+        justify-content: center;
+        margin-left: -120px;
+        margin-right: -100px;
+      
+    }
+}
+nav a:hover{
+    background-color:rgb(94, 184, 196);
+    text-decoration: none;
+    padding: 10px 10px;
+}
+@media (max-width:380px ) {
+    
+    .wel{
+        margin-top: 15px;
+    }
+    .checkbtn
+    {
+        display: block;
+        
+    }
+    
+     ul {
+       position: fixed;
+       width: 80%;
+       top: 80px;
+       margin-top: 20px;
+       left:-100%;
+       text-align: center;
+       transition: all .5s;
+       background-color: #2f7191;
+    }
+    nav ul li{
+        display: block;
+        background-color: #2f7191;
+        margin-top: 30px;
+
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked~ ul{
+        left: 0;
+        
+    }
+    .im{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .im img{
+        width: 50px;
+        height: 30px;
+        padding-left: 0px;
+        margin-right: -40px;
+    }
+   .im h1{
+       font-size: 10px;
+       padding-top: 11px;
+    word-spacing: 1px;
+    text-shadow: 1.2px 1px 0px #fff;
+        padding-left: 22px;
+        
+        
+       
 
        
    }
@@ -527,9 +623,9 @@ nav a:hover{
         padding-right: 2.5px;
     }
     .flex2 img{
-        width: 220px;
-        
-        
+        width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
     }
     .flex1{
        
@@ -580,8 +676,3 @@ nav a:hover{
     
 }
 
-nav a:hover{
-    background-color:rgb(94, 184, 196);
-    text-decoration: none;
-    padding: 10px 10px;
-}
